@@ -1,0 +1,10 @@
+#java -classpath /Users/manavpatel/java_cup/java-cup-11b.jar:. java_cup.Main -dump -expect 3 tiny.cup
+java -classpath /Users/manavpatel/java_cup/java-cup-11b.jar:. java_cup.Main cminus.cup
+jflex cminus.flex
+Reading "cminus.flex"
+Constructing NFA : 110 states in NFA
+Converting NFA to DFA : 
+.........................................................
+59 states before minimization, 51 states in minimized DFA
+Writing code to "Lexer.java"
+javac -classpath /Users/manavpatel/java_cup/java-cup-11b.jar:.  Main.java absyn/Absyn.java absyn/ArrayDec.java absyn/AssgnExp.java absyn/CallExp.java absyn/CompoundExp.java absyn/Dec.java absyn/DecList.java absyn/Exp.java absyn/ExpList.java absyn/FuncDec.java absyn/IfExp.java absyn/IndexVar.java absyn/IntExp.java absyn/NilExp.java absyn/OpExp.java absyn/ReturnExp.java absyn/SimpleDec.java absyn/SimpleVar.java absyn/Type.java absyn/Var.java absyn/VarDec.java absyn/VarDecList.java absyn/VarExp.java absyn/WhileExp.java parser.java sym.java Lexer.java Scanner.java

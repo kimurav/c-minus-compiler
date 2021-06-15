@@ -1,0 +1,36 @@
+/*
+    cminus program to mathc the two sides of an operand
+    1) assigning a int to a void
+    2) assigning a void to an int
+    3) assigning a void to int[]
+    4) assinging a void function return type
+*/
+
+void foo(void) {
+    int a;
+    a = a + 1;
+    output(a);
+}
+
+int main(void) {
+    int num1;
+    void num2;
+    int num3;
+    void num4;
+    int array[10];
+    input(num2);
+
+    /*Error here*/
+    num1 = num2;
+
+    /*Error here*/
+    num4 = num3;
+
+    /*Error here*/
+    array[0] = num2;
+
+    /*Error here*/
+    num1 = foo();
+
+    return 0;
+}

@@ -1,0 +1,22 @@
+
+/*
+    c minus program to match the function arguents to parameters
+*/
+void func1(int a, void b, int array[]) {
+    return;
+}
+
+
+void main(void) {
+    int x;
+    int y;
+    int arr[10];
+    void z;
+
+    func1(x, z, arr);
+
+
+    /*Error here*/
+    func1(x, arr, y);
+
+}

@@ -1,0 +1,17 @@
+/*
+  cminus porgram to match operands 
+  1) function returns void and is a part of an arithmetic expression
+*/
+
+void foo(void) {
+    int a;
+    a = a + 1;
+    output(a);
+}
+int main(void) {
+  int x;
+  int y;
+
+  x = x * 2 + 1;
+  y = x + foo();
+}

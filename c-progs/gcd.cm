@@ -1,0 +1,13 @@
+
+int gcd(int u, int v) {
+  int i;
+  if (v == 0) return u;
+  else return gcd(v, u - u/v*v);
+}
+
+void main(void) {
+  int x; int y; int a; int b;
+  x = input(a);
+  y = input(b);
+  output(gcd(x, y));
+}

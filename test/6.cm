@@ -1,0 +1,19 @@
+/*
+    cminus program to test the return types of a function
+*/
+
+int func(int num) {
+    num = num + 10;
+    return;
+}
+
+void funtwo(void) {
+    int x;
+    x = 2;
+    return x;
+}
+
+int main(void) {
+    funtwo();
+    return 0;
+}

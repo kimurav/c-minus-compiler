@@ -1,0 +1,21 @@
+/* C-minus file 3 with semantic errors for arrays
+1) inproper type for array index (not an int type)
+2) improper type for array index: function call that returns void
+*/
+
+void foo(void) {
+    int a;
+    input(a);
+    return;
+}
+
+
+void main(void) {
+    int a[2];
+    int y;
+    void x;
+    y = 1;
+    a[x] = 1;
+    a[y] = 10;
+    a[foo()] = 2;
+}

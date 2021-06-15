@@ -1,0 +1,31 @@
+Manav Patel
+Checkpoint 1
+CIS 4650 Compilers
+
+
+How to Build:
+    inside the root of the project directory run make
+    1) make
+    This will compile the Scanner and the cup spec files into a executable Main 
+    to run type: make run
+    2) make run
+
+    To run the semantic analyzer add the -s flag:
+    java -classpath ./java_cup/java-cup-11b-runtime.jar:. Main test/1.cm -s
+
+    To run the syntax tree program add the -t flag:
+    java -classpath ./java_cup/java-cup-11b-runtime.jar:. Main test/1.cm -t    
+
+
+How to test for semantic analyzer:
+    there are 7 test cases in this program.
+    to run test 1: make run-sym-1
+    to run test 2: make run-sym-2 
+    to run test 3: make run-sym-3
+    to run test 4: make run-sym-4
+    to run test 5: make run-sym-5
+    to run test 6: make run-sym-6
+    to run test 7: make run-sym-7
+
+
+

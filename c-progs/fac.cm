@@ -1,0 +1,18 @@
+int array[10];
+
+void main(int anotherVAr, int y) {
+  int x; 
+  char c;
+  int fac;
+  int a;
+  x = input(arg, arga, argb, argc, argd);
+  fac = 1;
+
+  while (x > 1) {
+    fac = fac * x;
+    x = x - 1;
+  } 
+
+  output(fac);
+}
+
